@@ -11,5 +11,7 @@ export default function TestButton(props: ButtonProps) {
     document.title = `You clicked ${count} times`;
   });
 
-  return <button onClick={() => setCount(c + 1)}>Click Me {count}</button>;
+  return (
+    <button onClick={() => setCount(c + 1)}>Click Me {count} time. </button>
+  );
 }
