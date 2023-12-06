@@ -13,7 +13,7 @@ export default function TestButton(props: ButtonProps) {
 
   return (
     <button onClick={() => setCount((c) => c + 5555)}>
-      Click Me {count} time.
+      Click Me {count} time......
     </button>
   );
 }
