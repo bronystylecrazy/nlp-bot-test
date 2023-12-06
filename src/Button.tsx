@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function Button() {
+interface ButtonProps {
+  onClick: () => void;
+}
+
+export default function TestButton(props: ButtonProps) {
   const [count, setCount] = React.useState(0);
 
   React.useEffect(() => {
