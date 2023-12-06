@@ -12,6 +12,6 @@ export default function TestButton(props: ButtonProps) {
   });
 
   return (
-    <button onClick={() => setCount(c + 1)}>Click Me {count} time....</button>
+    <button onClick={() => setCount(c + 1)}>Click Me {count} times....</button>
   );
 }
